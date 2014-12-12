@@ -16,5 +16,6 @@ cd accessmodClient
 qmake -project
 qmake
 make
+macdeployqt accessmodClient.app
 ```
 
