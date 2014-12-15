@@ -6,6 +6,6 @@ int main(int argc, char** argv) {
   QWebView view;
   view.show();
   /*view.setUrl(QUrl("http://localhost:8080"));*/
-  view.setUrl(QUrl("http://127.0.0.1:7814/"));
+  view.setUrl(QUrl("http://192.168.38.38/"));
   return app.exec();
 }
